@@ -42,11 +42,7 @@ var colossus = function()
 
 	var isResultReady = function() // check if the results are ready
 	{
-		if(ready)
-		{
-			return true;
-		}
-		return false;
+		return ready;
 	};
 
 	var getPools = function() 		// get all pools
