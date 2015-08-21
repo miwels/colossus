@@ -1,0 +1,48 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial";
+}
+body .content, html .content {
+  margin: auto;
+  width: 100%;
+}
+body .content .pool-list, html .content .pool-list {
+  width: 30%;
+  float: left;
+  padding-left: 10px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 25px;
+}
+body .content .pool-details-wrapper, html .content .pool-details-wrapper {
+  float: right;
+  width: 65%;
+  padding-top: 3px;
+}
+body .content .table-legs, html .content .table-legs {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+body .content .table-legs td, html .content .table-legs td {
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+body .content .table-legs .active, html .content .table-legs .active {
+  background-color: green;
+}
+body .controls, html .controls {
+  display: none;
+}
+body .controls .button-placeholder, html .controls .button-placeholder {
+  text-align: center;
+}
+body .controls button, html .controls button {
+  width: 200px;
+  height: 70px;
+}
+body .controls input[type="radio"], html .controls input[type="radio"] {
+  cursor: pointer;
+}

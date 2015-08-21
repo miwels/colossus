@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<div class="content">
+		<div class="pool-list"></div>
+		<div class="pool-details-wrapper" style="display:none">
+			<h1>Pool Details:</h1>
+			<p><strong>Name:</strong> <span class="pool-name"></span></p>
+			<p><strong>Currency:</strong> <span class="pool-currency"></span></p>
+			<p><strong>Has offers:</strong> <span class="pool-has-offers"></span></p>
+			<p><strong>Headline prize:</strong> <span class="pool-headline-prize"></span></p>
+			<p><strong>Sport code:</strong> <span class="pool-sport-code"></span></p>
+			<p><strong>Status:</strong> <span class="pool-status"></span></p>
+		</div>
+
+		<div style="clear:both"></div>
+
+		<div class="legs-list"></div>
+	</div>
+	<div class="controls">
+		<h2>Place your bid:</h2>
+		<input type="radio" name="bid" class="bid" value="2"> &pound;2
+		<input type="radio" name="bid" class="bid" value="1"> &pound;1
+		<input type="radio" name="bid" class="bid" value="0.5"> &pound;0.5
+		<input type="radio" name="bid" class="bid" value="0.2"> &pound;0.2
+
+		<h3>Total bet:   <span class="total-bid">0.0</span></h3>
+		<h3>Total lines: <span class="total-lines">0</span></h3>
+		<p class="button-placeholder"><button class="place-bet">Place my bet!</button></p>
+	</div>
+
+	<!-- jQuery include -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+	<!-- custom scripts -->
+	<script type="text/javascript" src="js/colossus.js"></script>
+	<script type="text/javascript" src="js/display.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
